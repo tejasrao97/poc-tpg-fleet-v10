@@ -1,0 +1,16 @@
+instance:
+  resources:
+    data:
+      limits:
+        cpu: "7"
+        memory: 7Gi
+      requests:
+        cpu: "6"
+        memory: 6Gi
+    metrics:
+      limits:
+        cpu: 700m
+        memory: 700Mi
+      requests:
+        cpu: 600m
+        memory: 600Mi
