@@ -2,15 +2,15 @@ instance:
   resources:
     data:
       limits:
-        cpu: "7"
-        memory: 7Gi
-      requests:
         cpu: "6"
         memory: 6Gi
+      requests:
+        cpu: "5"
+        memory: 5Gi
     metrics:
       limits:
-        cpu: 700m
-        memory: 700Mi
+        cpu: 750m
+        memory: 750Mi
       requests:
-        cpu: 600m
-        memory: 600Mi
+        cpu: 650m
+        memory: 650Mi
